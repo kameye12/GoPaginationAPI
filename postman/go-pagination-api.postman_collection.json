@@ -1,0 +1,35 @@
+{
+	"info": {
+		"_postman_id": "8185b23e-d31e-4dd4-849b-c7e3ce3d9f86",
+		"name": "go-pagination-api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "36831327"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8000/users?page=1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/users?page=1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"users"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
